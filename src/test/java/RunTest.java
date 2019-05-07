@@ -15,14 +15,14 @@ public class RunTest {
     public void test2(){
         String stroka = "qwerty";
         String expected = "qwerty";
-        assertEquals("Passed",stroka,expected);
+        assertEquals(stroka,expected);
     }
 
     @Test
     public void test3(){
-        int a = 5;
+        int a = 3;
         int b = 5;
-        assertEquals("Passed",a,b);
+        assertEquals(a,b);
     }
 
     @After
