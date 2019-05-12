@@ -14,14 +14,16 @@ public class RunTest {
     @Test
     public void test2(){
         String stroka = "qwerty";
-        String expected = "qwerty";
+        Run Myclass = new Run();
+        String expected = Myclass.getSTR("qwerty");
         assertEquals(stroka,expected);
     }
 
     @Test
     public void test3(){
         int a = 3;
-        int b = 5;
+        Run Myclass = new Run();
+        int b = Myclass.getNUM(5);
         assertEquals(a,b);
     }
 
